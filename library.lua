@@ -3949,3 +3949,5 @@ local Library do
         end
     end
 end
+getgenv().Library = Library
+return Library
